@@ -68,9 +68,9 @@ h2 {
 }
 .p-card {
   background: var(--card-bg);
-  padding: 15px;
-  border-radius: 8px;
   border: 1px solid #222;
+  border-radius: 12px;
+  padding: 16px;
 }
 .p-card h3 {
   color: var(--tomato);
@@ -150,4 +150,8 @@ button:hover {
   object-fit: cover;
   border-radius: 8px;
   border: 2px solid var(--tomato);
+}
+html, body {
+  background: #000 !important;
+  color: #fff !important;
 }
