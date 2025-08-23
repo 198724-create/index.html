@@ -66,13 +66,13 @@ h2 {
   gap: 14px;
   margin-top: 20px;
 }
-.card {
+.p-card {
   background: var(--card-bg);
   padding: 15px;
   border-radius: 8px;
   border: 1px solid #222;
 }
-.card h3 {
+.p-card h3 {
   color: var(--tomato);
   margin: 8px 0;
 }
@@ -145,9 +145,9 @@ button:hover {
 }
 /* Make gallery/carousel images uniform */
 .hero-img {
-  height: 360px;      /* pick 320–420px if you prefer smaller/larger */
+  height: 360px;     
   width: 100%;
-  object-fit: cover;  /* crops nicely without distortion */
+  object-fit: cover;
   border-radius: 8px;
   border: 2px solid var(--tomato);
 }
