@@ -1,0 +1,136 @@
+/* Colors */
+:root {
+  --bg: #000;         /* black background */
+  --tomato: tomato;   /* tomato text & accents */
+  --card-bg: #111;    /* card backgrounds */
+  --text: #fff;       /* default light text */
+  --muted: #aaa;
+}
+
+/* Basic Reset */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: center; /* centers everything globally */
+}
+
+/* Header */
+.brand {
+  background: var(--bg);
+  padding: 20px;
+}
+.brand h1 {
+  color: var(--tomato);
+  margin: 0;
+  font-size: 40px;
+}
+
+/* Navigation */
+.main-nav {
+  background: var(--bg);
+  padding: 12px;
+}
+.main-nav a {
+  color: var(--tomato);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 12px;
+}
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.wrap {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+h2 {
+  color: var(--tomato);
+  margin-bottom: 10px;
+}
+.note {
+  color: var(--muted);
+}
+
+/* Grid Layout for Menu */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+.card {
+  background: var(--card-bg);
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #222;
+}
+.card h3 {
+  color: var(--tomato);
+  margin: 8px 0;
+}
+.price {
+  color: var(--text);
+  font-weight: bold;
+}
+
+/* Gallery Image */
+.hero-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid var(--tomato);
+}
+
+/* Contact Form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+.field {
+  margin: 10px 0;
+}
+label {
+  color: var(--tomato);
+  display: block;
+  margin-bottom: 5px;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background: #0f0f0f;
+  color: var(--text);
+}
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: var(--tomato);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  filter: brightness(0.9);
+}
+
+/* Footer */
+.foot {
+  margin-top: 30px;
+  padding: 20px;
+  background: var(--bg);
+  color: var(--muted);
+}
