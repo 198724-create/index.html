@@ -143,3 +143,11 @@ button:hover {
   border-radius: 6px;
   border: 2px solid var(--tomato);
 }
+/* Make gallery/carousel images uniform */
+.hero-img {
+  height: 360px;      /* pick 320–420px if you prefer smaller/larger */
+  width: 100%;
+  object-fit: cover;  /* crops nicely without distortion */
+  border-radius: 8px;
+  border: 2px solid var(--tomato);
+}
