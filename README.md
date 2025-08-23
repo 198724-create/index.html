@@ -24,7 +24,7 @@ The page uses anchor navigation to jump between sections.
 
 ## Wireframes
 Hand-drawn wireframes are included in `/docs/wireframes/`:
-- [Website Sketch Idea](docs/wireframes/leo.jpg)
+[Website Sketch](docs/wireframes/leo.jpeg)
 
 ## Technologies Used
 - HTML5
@@ -62,3 +62,6 @@ The app is hosted on **GitHub Pages**:
 
 - All pizza images are placeholders for class use.
 - Built by Leo for educational purposes.
+
+
+[docs/wireframes/leo.jpeg]: docs/wireframes/leo.jpeg
