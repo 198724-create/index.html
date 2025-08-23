@@ -58,3 +58,7 @@ The app is hosted on **GitHub Pages**:
 - Add a **menu detail page** with toppings picker or nutrition info.
 - Add a **reviews form** with client-side validation.
 
+## Credits / Attribution
+
+- All pizza images are placeholders for class use.
+- Built by Leo for educational purposes.
