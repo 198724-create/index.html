@@ -24,7 +24,7 @@ The page uses anchor navigation to jump between sections.
 
 ## Wireframes
 Hand-drawn wireframes are included in `/docs/wireframes/`:
-[Website Sketch](docs/wireframes/leo.jpeg)
+[Website Sketch](docs/wireframes/leo.jpg)
 
 ## Technologies Used
 - HTML5
